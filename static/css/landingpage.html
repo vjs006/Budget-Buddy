@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset="utf-8">
+    <title>Budget Buddy, your absolute financial guide</title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/landingpage.css') }}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link rel="icon" href="{{ url_for('static', filename='images/logo1.png') }}">
+</head>
+<body>
+    <nav>
+        <div class="logo">
+            <img src="{{ url_for('static', filename='images/logo2.png') }}" width="500" height="150">
+        </div>
+        <div class="menu">
+            <a href="/home">Home</a>
+            <a href="/services">Services</a>
+            <a href="/contactus">Contact us</a>
+            <a href="/login">Login</a>
+            <a href="/register">Sign up</a>
+        </div>
+    </nav>
+    <div class="line">
+        <div class="box1"></div><br>
+        <div class="box2"></div><br>
+        <div class="box3"></div>
+    </div>
+    <div class="container">
+        <div class="left">
+            <h1>Your Money <br> Our Expertise</h1> <br><br>
+            <a href="/chatbot">
+                <button>Try BudgetBuddy...</button>
+            </a> <br>
+            <a href="/stockmain">
+                <button>Stock Prices</button>
+            </a>
+        </div>
+        <div class="right">
+            <img src="{{ url_for('static', filename='images/hover1.png') }}" alt="Hover 1">
+        </div>
+    </div>
+    <div class="s-icon">
+        <a href="https://facebook.com"><img src="{{ url_for('static', filename='images/facebook_logo.png') }}" alt="Facebook Logo"></a> 
+        <a href="https://instagram.com"><img src="{{ url_for('static', filename='images/instagram_logo.png') }}" alt="Instagram Logo"></a>
+        <a href="https://whatsapp.com"><img src="{{ url_for('static', filename='images/whatsapp_logo.png') }}" alt="WhatsApp Logo"></a>
+        <a href="https://twitter.com"><img src="{{ url_for('static', filename='images/twitter_x_logo.png') }}" alt="Twitter X Logo"></a>
+    </div>
+</body>
+</html>

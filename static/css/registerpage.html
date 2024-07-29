@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+  <head></head>
+    <title>Budget Buddy</title>
+    <link rel="stylesheet" type ="text/css" href="{{ url_for('static', filename='css/registerpage.css') }}">
+  </head>
+
+  <body>
+    <section style = "background-image: url('{{ url_for('static', filename='images/registerbg.png') }}')">
+        <div class="reg-block">
+                <h1>Sign-Up</h1><br>
+
+              <form action="" method="post">
+
+                <label for="name">User-Name:</label>
+                <input type="email" required id="name" name="name" placeholder="Type to Enter"><br>
+                
+                <label for="password">Password:</label>
+                <input type="password" required id="password" name="password" placeholder="Type to Enter"><br>
+                
+                <label for="cpassword">Confirm Password:</label>
+                <input type="password" required id="cpassword" name="conf-password" placeholder="Type to Enter"><br>
+
+                <input type="submit" class="c-submit" value="Submit">
+                
+              </form>
+        </div>
+  </section>
+  </body>
+</html>

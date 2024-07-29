@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content = "text/html"; charset="utf-8">
+        <title> Contact Us </title>
+        <link rel = "stylesheet" type="text/css" href = "{{ url_for('static', filename='css/contactus.css') }}">
+    </head>
+    <body>
+        <section style="background-image: url('{{ url_for('static', filename='images/contactusbg.png') }}')">
+        <div class = "m_dummy">
+                <h1> Contact Us </h1>
+                <h2> Contact Information </h2>
+                <p>
+                    <strong> Company Name:</strong>
+                    BudgetBuddy
+                </p>
+                <p>
+                    <strong> Email: </strong>
+                    <a href = "mailto:info@budgetbuddyapp.com" target="_blank" rel = "noreferrer">
+                        info@budgetbuddyapp.com
+                    </a>
+                </p>
+                <p>
+                    <strong>
+                        Phone:
+                    </strong>
+                    +1 (123) 456-7890
+                </p>
+                <p>
+                    <strong>
+                        Address:
+                    </strong>
+                    123 Main street, City, Country
+                </p>
+                <br>
+                <h2> Customer Support </h2>
+                <p>
+                    <strong> For inquiries and support: </strong>
+                    <a href = "mailto:support@budgetbuddyapp.com" target="_blank" rel="noreferrer"> support@budgetbuddyapp.com </a>
+
+                </p>
+        </div>
+        <div class="s-icon">
+            <div class="social-text">
+                <h2> Socials </h2>
+            </div>
+            <a href="https://facebook.com"><img src="{{ url_for('static', filename='images/facebook_logo.png') }}" alt="Facebook Logo"></a> 
+            <a href="https://instagram.com"><img src="{{ url_for('static', filename='images/instagram_logo.png') }}" alt="Instagram Logo"></a>
+            <a href="https://whatsapp.com"><img src="{{ url_for('static', filename='images/whatsapp_logo.png') }}" alt="WhatsApp Logo"></a>
+            <a href="https://twitter.com"><img src="{{ url_for('static', filename='images/twitter_x_logo.png') }}" alt="Twitter X Logo"></a>
+        </div>        
+        </section>
+    </body>
+</html>

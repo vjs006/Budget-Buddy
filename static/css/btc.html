@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+  <head></head>
+    <title>Budget Buddy</title>
+    <link rel="stylesheet" type = "text/css" href="{{ url_for('static', filename='css/btc.css') }}">
+    <!-- <link rel="icon" type="image" href="icon.jpg"> -->
+  </head>
+
+  <body>
+    <main>
+        <section style="background-image: url('{{ url_for('static', filename='images/stockmainbg.png') }}')">
+            <div class="chart_Prices">
+                <img class="chart" src="{{ url_for('static', filename='images/crypto/btc.ns.png') }}" alt="Prediction Chart" width="900px" height="600px"><br><br><br><br><br>
+                <img class="price" src="{{ url_for('static', filename='images/crypto/btcdf.png') }}" alt="Prediction Values" style = "margin-left: 150px;" width = "600px" height="300px">
+            </div>
+
+            <div class="tradingview-widget-container">
+                <div id="tradingview_4ab2e"></div>
+                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                <a href = "https://www.tradingview.com/widgetembed/?hideideas=1&overrides=%7B%7D&enabled_features=%5B%5D&disabled_features=%5B%5D&locale=en#%7B%22symbol%22%3A%22BINANCE%3ABTCUSDT%22%2C%22frameElementId%22%3A%22tradingview_ee01a%22%2C%22interval%22%3A%221%22%2C%22range%22%3A%221D%22%2C%22hidesidetoolbar%22%3A%220%22%2C%22symboledit%22%3A%221%22%2C%22saveimage%22%3A%221%22%2C%22details%22%3A%221%22%2C%22calendar%22%3A%221%22%2C%22hotlist%22%3A%221%22%2C%22studies%22%3A%22%5B%5D%22%2C%22theme%22%3A%22dark%22%2C%22style%22%3A%221%22%2C%22timezone%22%3A%22Etc%2FUTC%22%2C%22withdateranges%22%3A%221%22%2C%22studies_overrides%22%3A%22%7B%7D%22%2C%22enablepublishing%22%3A%221%22%2C%22utm_source%22%3A%22127.0.0.1%22%2C%22utm_medium%22%3A%22widget_new%22%2C%22utm_campaign%22%3A%22chart%22%2C%22utm_term%22%3A%22BINANCE%3ABTCUSDT%22%2C%22page-uri%22%3A%22127.0.0.1%3A5000%2Fbtc%22%7D">
+                    <button type="submit"> Click to expand</button>
+                </a>
+                <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+                <script type="text/javascript">
+                    new TradingView.widget({
+                        "symbol": "BINANCE:BTCUSDT",
+                        "timezone": "Etc/UTC",
+                        "theme": "dark",
+                        "style": "1",
+                        "locale": "en",
+                        "enable_publishing": true,
+                        "withdateranges": true,
+                        "range": "1D",
+                        "hide_side_toolbar": false,
+                        "allow_symbol_change": true,
+                        "details": true,
+                        "hotlist": true,
+                        "calendar": true,
+                        "show_popup_button": true,
+                        "popup_width": "1000",
+                        "popup_height": "650",
+                        "container_id": "tradingview_4ab2e"
+                    });
+                </script>
+            </div>
+        </section>
+        <!-- TradingView Widget BEGIN -->
+        <!--
+        -->
+        <!-- TradingView Widget END -->
+        
+    </main>
+  </body>
+</html>

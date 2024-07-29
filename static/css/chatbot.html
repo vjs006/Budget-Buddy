@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang = "en" dir = "ltr">
+    <head>
+        <meta charset="utf-8">
+        <title> Budget Buddy, you ultimate financial buddy </title>
+        <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static', filename='css/chatbot.css') }}">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+        <script src ="{{ url_for('static', filename='js/script.js') }}" defer> </script>
+    </head>
+    
+    <body>
+        <!--User-->
+        <div class = "chat-container"></div>
+
+        <!--Typing container-->
+        <div class="typing-container">
+            <div class="typing-content">
+                <div class="typing-textarea">
+                    <textarea id = "chat-input" placeholder= "Enter a prompt here!" required></textarea>
+                    <span id = "send-btn" class ="material-icons"> send </span>
+                </div>
+                <div class="typing-controls">
+                    <span id = "theme-btn" class ="material-icons"> light_mode </span>
+                    <span id = "delete-btn" class ="material-icons"> delete </span>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

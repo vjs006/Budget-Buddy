@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+  <head></head>
+    <title>Budget Buddy</title>
+    <link rel="stylesheet" type = "text/css" href="{{ url_for('static', filename='css/infosys.css') }}">
+    <!-- <link rel="icon" type="image" href="icon.jpg"> -->
+  </head>
+
+  <body>
+    <main>
+        <section style="background-image: url('{{ url_for('static', filename='images/stockmainbg.png') }}')">
+            <div class="chart_Prices">
+                <img class="chart" src="{{ url_for('static', filename='images/stocks/infy.ns.png') }}" alt="Prediction Chart" width="900px" height="600px"><br><br><br><br><br>
+                <img class="price" src="{{ url_for('static', filename='images/stocks/infydf.png') }}" alt="Prediction Values" style = "margin-left: 150px;" width = "600px" height="300px">
+            </div>
+            <div class="tradingview-widget-container">
+                <div id="tradingview_a0dc0"> </div>
+                <div class="tradingview-widget-copyright"><a href="https://www.tradingview.com/" rel="noopener nofollow" target="_blank"><span class="blue-text">Track all markets on TradingView</span></a></div>
+                <a href = "https://in.tradingview.com/chart/9CWB1iED/?symbol=NSE%3AINFY">
+                    <button type="submit"> Click to view chart </button>
+                </a>
+            </div>
+        </section>
+        <!-- TradingView Widget BEGIN -->
+        <!--
+        -->
+        <!-- TradingView Widget END -->
+        
+    </main>
+  </body>
+</html>
+
+
+

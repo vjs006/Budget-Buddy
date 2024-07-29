@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head><meta charset="utf-8"></head> 
+    <link rel = "stylesheet" type = "text/css" href = "{{ url_for('static', filename='css/loginpage.css') }}">
+
+    <body>
+        <section style="background-image: url('{{ url_for('static', filename='images/hover3.png') }}')">
+            <div class = "login-box">
+                <form action = "/loginthing" method = "post">
+                    <h2> Login </h2>
+                    <div class = "input-box">
+                        <span class = "icon"> <ion-icon name = "mail"></ion-icon></span>     
+                        <input type="email" required id = "email" name = "email">
+                        <label> Email </label>
+                    </div>
+                    <div class = "input-box">
+                        <span class = "icon"> <ion-icon name = "lock-closed"></ion-icon></span>
+                        <input type="password" required id = "password" name = "password">
+                        <label> Password </label><br>
+                    </div>
+                    <div class = "remember-forgot">
+                        <label><input type = "checkbox"> Remember me </label>
+                        <a href = "/forgot_password"> Forgot password? </a>
+                    </div>
+                    <button type = "submit"> Login </button>
+                    <div class = "register-link">
+                        <p> Don't have an account? 
+                        <a href = "/register"> Sign up! </a> </p>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </body>
+
+</html>

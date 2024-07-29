@@ -1,0 +1,132 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    background-image: "{{ url_for('static*{
+        font-family: Arial, Helvetica, sans-serif;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    section{
+        background-image: "{{ url_for('static', filename='images/stockmainbg.png') }}";
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100vw;
+        height: 100vh;
+        opacity: 0.9;
+    }
+    
+    body {
+        min-height: 100vh;
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-items: center;
+    }
+    
+    .tradingview-widget-container {
+        width: 1000px;
+        height: 600px;
+        display: flex;
+        flex-direction: column; /* Change to a column layout */
+        align-items: center; /* Center items horizontally */
+        justify-content: flex-start; /* Align items at the top */
+        margin-left: 50px;
+        padding-right: 50px;
+    }
+    
+    
+    .tradingview-widget-copyright{
+        font-size: 2em;
+        background: white;
+    }
+    /* Styles for the button */
+    button {
+        width: 250px;
+        height: 100px;
+        background: red;
+        border: none;
+        outline: none;
+        border-radius: 40px;
+        cursor: pointer;
+        font-size: 1.5em;
+        color: white;
+        font-weight: bold;
+        margin-top: 200px; /* Adjust the margin-top as needed */
+    
+    }
+    
+    button:hover{
+        background: skyblue;
+        color: black
+    }
+    
+    .chart_Prices{
+        padding: 100px 50px;
+        border-radius: 5px;
+        width: 500px;
+        height: 200px;
+        margin-left: 1000px;
+    }
+    ', filename='images/stockmainbg.png') }}";
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.9;
+}
+
+body {
+    min-height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+}
+
+.tradingview-widget-container {
+    width: 1000px;
+    height: 600px;
+    display: flex;
+    flex-direction: column; /* Change to a column layout */
+    align-items: center; /* Center items horizontally */
+    justify-content: flex-start; /* Align items at the top */
+    margin-left: 50px;
+    padding-right: 50px;
+}
+
+/* Styles for the button */
+button {
+    width: 250px;
+    height: 100px;
+    background: red;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    font-size: 1.5em;
+    color: white;
+    font-weight: bold;
+    margin-top: 20px; /* Adjust the margin-top as needed */
+}
+
+button:hover{
+    background: skyblue;
+    color: black
+}
+
+.chart_Prices{
+    padding: 100px 50px;
+    border-radius: 5px;
+    width: 500px;
+    height: 200px;
+    margin-left: 1000px;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+  <head></head>
+    <title>Budget Buddy</title>
+    <link rel="stylesheet" type = 'text/css' href="{{ url_for('static', filename='css/stockmain.css') }}">
+    <!-- <link rel="icon" type="image" href="icon.jpg"> -->
+  </head>
+
+  <body>
+    <main>
+        <section style="background-image: url('{{ url_for('static', filename='images/stockmainbg.png') }}')">
+            <div class="sidebar">
+                <div class="head-sidebar">Available Predictions</div>
+                <div class="custom-dropdown">
+                    <button class="dropdown-toggle">Stocks</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="/axis">Axis Bank</a></li>
+                        <li><a href="/adaniports">Adani Ports</a></li>
+                        <li><a href="/sunpharma">Sun Pharma</a></li>
+                        <li><a href="/tvsmotors">TVS Motors</a></li>
+                        <li><a href="/infosys">Infosys - INFY</a></li>
+                        <li><a href="/sbi">SBIN</a></li>
+                        <li><a href="/maruti">Maruti</a></li>
+                        <li><a href="/hdb">HDB</a></li>
+                        <li><a href="/cumminsind">Cummins IND</a></li>
+                        <li><a href="/deepakntr">Deepak NTR</a></li>
+                        <li><a href="/dixon"> Dixon </a></li>
+                        <li><a href="/tcs">Tata Consultancy Services</a></li>
+                        <li><a href="/hcl">HCL TECH</a></li>
+                        <li><a href="/icici">ICICI Bank</a></li>
+                        <li><a href="/amazon">AMAZON</a></li>
+                    </ul>
+                    <button class="dropdown-toggle">Crypto-Currency</button>
+                    <ul class="dropdown-menu">
+                        <li><a href="/btc">Bitcoin - BTC</a></li>
+                        <li><a href="/eth">Ethereum - ETH</a></li>
+                        <li><a href="/xmr">Monero - XMR</a></li>
+                    </ul>
+                </div>
+                
+            </div>
+            <div class="dummy">
+                <div class="slide-in">
+                <p><strong>Stock Prices </strong></p>
+                <p class="desc">Welcome to our Stock Prices section, where you can stay up-to-date with the latest stock market trends, make informed investment decisions, and access predictive insights for the future. Our state-of-the-art platform combines real-time data with cutting-edge predictive models to provide you with a comprehensive view of the stock market. Explore live charts, historical data, and future price forecasts all in one place.</p>
+                <br>
+                <p><strong>
+                    Live Stock Charts
+                </strong></p>
+                
+                <p class="desc">Our live stock charts offer a real-time glimpse of market activity. Track stock prices as they change, and observe price movements, volume trends, and much more. With interactive features, you can customize your chart view to suit your preferences, making it easier than ever to monitor the stocks you care about.</p>
+                <br>
+                <p><strong> Predictive Insights </strong></p>
+                
+                <p> Our inbuilt predictive model leverages the power of artificial intelligence and historical data to forecast future stock prices. This tool assists you in making informed investment choices by providing predictive insights for selected stocks. Our model takes into account various factors, including historical performance, market conditions, and relevant news, to generate forecasts you can rely on.</p>
+                </div>
+            </div>
+            
+            
+        </section>
+    </main>
+  </body>
+</html>
