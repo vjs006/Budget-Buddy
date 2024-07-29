@@ -3,17 +3,20 @@
 BudgetBuddy is an AI-powered chatbot designed to be your versatile financial advisor. It's here to assist you with a wide range of financial inquiries, offer budgeting guidance, provide stock predictions and investment recommendations, all while using advanced AI models for predictions. Our goal is to enhance your financial literacy and decision-making, fostering greater financial well-being and confidence.
 
 ## Project Overview
-- **Authors**: Nithish Kumar S, Chanakya R, Vijay Srinivas K, Chandravel Saravanan.
-- **Contact**: nithish130718@gmail.com, chanakya7707@gmail.com, vjsofficial006@gmail.com
+- **Authors**: Vijay Srinivas K, Nithish Kumar S, Chanakya R, Chandravel Saravanan.
+- **Contact**: vjsofficial006@gmail.com, nithish130718@gmail.com, chanakya7707@gmail.com
+
+## For detailed demo video, check the following link:
+https://drive.google.com/drive/folders/1nqB3skqdP7QRQ7wWQo4F82Uotr_HVe4V?usp=sharing
 
 ## Features
 
-- **Chatbot Interface**: Easily interact with BudgetBuddy, your AI financial advisor, to get answers to your financial questions and receive personalized guidance.
 - **Financial Assistance**: BudgetBuddy is here to help with a wide range of financial inquiries, from budgeting to investment strategies.
 - **Stock Predictions**: Access real-time stock predictions and investment recommendations to make informed decisions.
 - **Advanced AI Models**: We use state-of-the-art AI models to provide you with the most accurate and up-to-date information.
 - **Financial Literacy**: BudgetBuddy is not just about answers; it's about helping you understand financial concepts and make informed choices.
-
+- **Chatbot Interface**: Easily interact with BudgetBuddy, your AI financial advisor, to get answers to your financial questions and receive personalized guidance.
+- 
 ## Getting Started
 
 To experience BudgetBuddy, install the require dependencies, templates, run the app.py file and explore the following sections:
